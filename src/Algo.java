@@ -7,5 +7,10 @@ public class Algo {
 
     }
 
+    public int pointsForLetter(char letter, int tripleWordBoosts, int doubleWordBoosts, String triplePointedLetters, String doublePointedLetters) {
+
+    }
 
 }
+
+
