@@ -7,4 +7,7 @@ public class pointCalculator {
 
     }
 
+    public int wordBoostMultiplicator(int wordStartX, int wordStartY, int wordEndX, int wordEndY){
+
+    }
 }

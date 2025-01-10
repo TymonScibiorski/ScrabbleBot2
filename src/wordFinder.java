@@ -1,5 +1,5 @@
 public class wordFinder {
-    public String mostProfitableWord(String word) {
+    public String mostProfitableWord(String[][] board) {
 
     }
 }
