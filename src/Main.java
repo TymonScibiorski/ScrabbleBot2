@@ -33,5 +33,6 @@ DoLettersMatch and a dictionary Letter:Points_for_it could also prove useful
  */
 
 /*
+I wonder if the code could theoretically run 15*15 pattern matchers for every word in existence.
  */
 
