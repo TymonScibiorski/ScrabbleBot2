@@ -33,6 +33,14 @@ DoLettersMatch and a dictionary Letter:Points_for_it could also prove useful
  */
 
 /*
-I wonder if the code could theoretically run 15*15 pattern matchers for every word in existence.
- */
+I wonder if the code could theoretically run 15*15 pattern matchers for every word in dictionaries.
+The amount of words is not that big. 4 * 10^6, give or take.
+PatternMatcher for the longest words, 15 letters long, would generate only 15+15 patternMatchers. For the shortest, 2 letters long, 14*14, provided my calculations are correct.
 
+In that way, for a given word the length of n, the board would be divided into horizontal and vertical fragments the length of n.
+Pattern matcher would be run on every one of those fragments.
+If the word passed the patternMatcher on the fragment, the surroundings of the fragment would be checked.
+    If the word can be placed without contacting more than one word, it's a pass.
+    If the word contacted more than one word in that position, a test would have to be run to check if it is still legal.
+        A word can contact more than one tile at a time, provided all words created in that way exist. If all are, it's a pass.
+ */
