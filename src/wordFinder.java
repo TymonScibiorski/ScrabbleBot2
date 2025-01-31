@@ -1,11 +1,21 @@
+import java.util.Arrays;
+import java.util.stream.Stream;
+
 public class wordFinder {
     public String mostProfitableWord(String[][] board) {
 
     }
 
-    public int[] fragments(String[][] board) {
+    public int[] fragmentBoardIntoHorizontalAndVerticalStripsOfLenN(int n) {
 
-        return new int[]{int x, int startY, int endY};
+    }
+
+    public int[] fragmentBoardIntoHorizontalAStripsOfLenN(int n) {
+
+    }
+
+    public int[] fragmentBoardIntoVerticalStripsOfLenN(int n) {
+
     }
 
     /*
