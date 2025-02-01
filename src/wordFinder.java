@@ -15,8 +15,16 @@ public class wordFinder {
     }
 
     public int[] fragmentBoardIntoVerticalStripsOfLenN(int n) {
+        int[] out;
 
+        for (int i = 0; i < 15; i++) {
+                out += Main.Board
+        }
     }
+
+    public
+
+
 
     /*
     Provided that  checking if a word is violable and calculating points for has the complexity of n,

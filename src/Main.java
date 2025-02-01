@@ -44,3 +44,5 @@ If the word passed the patternMatcher on the fragment, the surroundings of the f
     If the word contacted more than one word in that position, a test would have to be run to check if it is still legal.
         A word can contact more than one tile at a time, provided all words created in that way exist. If all are, it's a pass.
  */
+
+//TODO: Create the Board entity
