@@ -14,15 +14,21 @@ public class wordFinder {
 
     }
 
-    public int[] fragmentBoardIntoVerticalStripsOfLenN(int n) {
-        int[] out;
-
+    public int[][] fragmentBoardIntoVerticalStripsOfLenN(int n) {
+        int[][] out = new int[15][];
         for (int i = 0; i < 15; i++) {
-                out += Main.Board
+            out[i] = fragmentSingleStrip(n);
         }
     }
 
-    public
+    public int[] fragmentSingleStrip(int n){
+        int[] out = new int[0];
+
+        for (int i = 0; i < 15-n; i++) {
+            out += new int[]{i+n};
+        }
+        return out;
+    }
 
 
 
